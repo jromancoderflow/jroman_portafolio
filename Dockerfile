@@ -6,7 +6,7 @@ WORKDIR /app
 COPY package.json package-lock.json* ./
 
 # Instalar solo lo necesario para build
-RUN npm ci
+RUN pnpm ci
 
 # Copiar proyecto
 COPY . .
@@ -17,7 +17,7 @@ ARG NUXT_PUBLIC_SITE_URL
 ENV NUXT_PUBLIC_SITE_URL=$NUXT_PUBLIC_SITE_URLNUXT_PUBLIC_SITE_URL
 
 # Build producción
-RUN npm run build
+RUN pnpm run build
 
 
 # ---------- Stage 2: Runtime ----------
