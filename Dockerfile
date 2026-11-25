@@ -1,14 +1,35 @@
-# syntax=docker/dockerfile:1
-FROM node:22-alpine AS build
-WORKDIR /app
-COPY package.json pnpm-lock.yaml ./
-RUN corepack enable && pnpm install --frozen-lockfile
-COPY . .
-RUN pnpm build
+FROM node:20-alpine AS builder
 
-FROM node:22-alpine AS run
 WORKDIR /app
+
+# Mejor cache
+COPY package.json package-lock.json* ./
+
+# Instalar solo lo necesario para build
+RUN npm ci
+
+# Copiar proyecto
+COPY . .
+
+# Variables de build (ejemplo)
+
+ARG NUXT_PUBLIC_SITE_URL
+ENV NUXT_PUBLIC_SITE_URL=$NUXT_PUBLIC_SITE_URLNUXT_PUBLIC_SITE_URL
+
+# Build producción
+RUN npm run build
+
+
+# ---------- Stage 2: Runtime ----------
+FROM node:20-alpine
+
+WORKDIR /app
+
 ENV NODE_ENV=production
-COPY --from=build /app/.output ./.output
+
+# Copiar solo salida optimizada
+COPY --from=builder /app/.output ./.output
+
 EXPOSE 3000
+
 CMD ["node", ".output/server/index.mjs"]
