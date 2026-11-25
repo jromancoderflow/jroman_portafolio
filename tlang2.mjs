@@ -1,0 +1,23 @@
+import { chromium } from 'playwright'
+const b = await chromium.launch()
+const p = await b.newPage({ viewport: { width: 1440, height: 1000 }, locale: 'en-US' })
+const logs = []
+p.on('console', m => { if (m.text().includes('/es')) logs.push(m.text().slice(0,120)) })
+await p.goto('http://localhost:3050/', { waitUntil: 'networkidle' })
+await p.waitForTimeout(1000)
+console.log('start:', p.url())
+// open language switcher
+await p.click('header button[aria-label="Change language"]')
+await p.waitForTimeout(300)
+const opts = await p.locator('header button:has-text("English"), header button:has-text("Español")').allInnerTexts()
+console.log('options:', opts)
+await p.click('text=English')
+await p.waitForTimeout(1500)
+console.log('after to EN:', p.url())
+await p.click('header button[aria-label="Change language"]')
+await p.waitForTimeout(300)
+await p.click('text=Español')
+await p.waitForTimeout(1500)
+console.log('after to ES:', p.url())
+console.log('es logs:', logs)
+await b.close()

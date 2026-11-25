@@ -1,0 +1,190 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "work": "Trabajo",
+    "engineering": "Ingeniería",
+    "ai": "IA",
+    "lab": "Lab",
+    "writing": "Escritos",
+    "about": "Sobre mí",
+    "contact": "Contacto",
+    "hireMe": "Contrátame",
+    "menu": "Menú",
+    "skipToContent": "Saltar al contenido",
+    "language": "Cambiar idioma"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema",
+    "toggle": "Cambiar tema de color"
+  },
+  "common": {
+    "viewCaseStudy": "Ver caso de estudio",
+    "visitSite": "Visitar sitio",
+    "back": "Volver",
+    "noContent": "Contenido próximamente.",
+    "draft": "Borrador",
+    "research": "Investigación",
+    "inDevelopment": "En desarrollo",
+    "experimental": "Experimental",
+    "published": "Publicado",
+    "archived": "Archivado"
+  },
+  "home": {
+    "hero": {
+      "badge": "Software Engineer & Technical Lead",
+      "greeting": "Hola, soy",
+      "headline": "Construyo software en producción.",
+      "available": "Disponible para oportunidades",
+      "exploreWork": "Ver mi trabajo",
+      "downloadCv": "Descargar CV",
+      "contact": "Contacto",
+      "basedIn": "Basado en",
+      "stack": "Tecnologías con las que trabajo"
+    },
+    "metrics": {
+      "years": "Años de experiencia",
+      "python": "Años con Python",
+      "leadership": "Liderazgo",
+      "leadershipLabel": "Técnico",
+      "educator": "Docencia",
+      "educatorLabel": "Ingeniería de software"
+    },
+    "about": {
+      "eyebrow": "Sobre mí",
+      "title": "Diseño, desarrollo y opero sistemas que se sostienen en producción.",
+      "body": "Software Engineer, Technical Lead y profesor de Ingeniería de Software en Santiago, Chile. Combino ingeniería de software, arquitectura y IA aplicada para convertir problemas de negocio reales en sistemas confiables y escalables.",
+      "cta": "Saber más sobre mí"
+    },
+    "skills": {
+      "eyebrow": "Mis habilidades",
+      "title": "Tecnologías que domino",
+      "subtitle": "Organizadas por capacidad de ingeniería, con nivel de evidencia en vez de porcentajes arbitrarios."
+    },
+    "projects": {
+      "eyebrow": "Proyectos destacados",
+      "title": "Trabajo Reciente",
+      "subtitle": "Sistemas en producción y productos comerciales, presentados como casos de estudio de ingeniería.",
+      "cta": "Ver todos los casos de estudio"
+    },
+    "principles": {
+      "eyebrow": "Principios de ingeniería",
+      "title": "Cómo abordo el software"
+    },
+    "aiPreview": {
+      "title": "Ingeniería de IA",
+      "subtitle": "IA como herramienta, ingeniería como oficio.",
+      "body": "Integro IA donde aporta valor real, con revisión humana, pruebas y observabilidad. La IA acelera la implementación; el juicio de ingeniería asegura la calidad.",
+      "cta": "Saber más"
+    },
+    "experience": {
+      "eyebrow": "Experiencia",
+      "title": "Experiencia Profesional",
+      "subtitle": "Línea de tiempo resumida."
+    },
+    "writing": {
+      "eyebrow": "Escritos",
+      "title": "Últimos Escritos"
+    },
+    "contactCta": {
+      "eyebrow": "Trabajemos juntos",
+      "title": "¿Tienes un proyecto en mente?",
+      "body": "Abierto a oportunidades, colaboraciones y conversaciones técnicas.",
+      "cta": "Contactar"
+    }
+  },
+  "work": {
+    "title": "Trabajo",
+    "subtitle": "Casos de estudio de software en producción."
+  },
+  "engineering": {
+    "title": "Ingeniería",
+    "subtitle": "Capacidades, no solo tecnologías.",
+    "legend": {
+      "production": "Experiencia en producción",
+      "practical": "Conocimientos prácticos",
+      "developing": "En desarrollo"
+    }
+  },
+  "ai": {
+    "title": "Ingeniería de IA",
+    "subtitle": "Ingeniería de software aumentada por IA.",
+    "augmented": {
+      "title": "Ingeniería de Software Aumentada por IA",
+      "body": "Un flujo donde la IA acelera la implementación mientras el juicio de ingeniería asegura la calidad."
+    },
+    "applied": {
+      "title": "IA Aplicada",
+      "body": "Integraciones reales de IA dentro de productos de software."
+    },
+    "governance": {
+      "title": "Gobernanza y Confiabilidad de IA",
+      "body": "Validación, seguridad, costos y observabilidad para sistemas de IA."
+    }
+  },
+  "lab": {
+    "title": "Laboratorio de Ingeniería",
+    "subtitle": "Experimentos, herramientas e investigación."
+  },
+  "writing": {
+    "title": "Escritos",
+    "subtitle": "Artículos y notas técnicas.",
+    "empty": "Aún no hay artículos publicados. Los borradores están en progreso."
+  },
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Ingeniero, constructor, educador.",
+    "teaching": {
+      "title": "Docencia",
+      "body": "Profesor de ingeniería de software en Duoc UC, cubriendo desarrollo full stack, DevOps, cloud y diseño de sistemas."
+    },
+    "languages": "Idiomas: Español (nativo), Inglés (avanzado)"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Conversemos.",
+    "availability": "Disponibilidad",
+    "location": "Ubicación",
+    "downloadCv": "Descargar CV",
+    "noEmail": "Correo no configurado aún.",
+    "noSocial": "Enlaces sociales no configurados aún."
+  },
+  "caseStudy": {
+    "overview": "Resumen del Proyecto",
+    "problem": "Problema de Negocio",
+    "role": "Mi Rol",
+    "challenges": "Desafíos Técnicos",
+    "architecture": "Arquitectura del Sistema",
+    "stack": "Stack Tecnológico",
+    "decisions": "Decisiones de Arquitectura",
+    "highlights": "Aspectos Destacados",
+    "security": "Consideraciones de Seguridad",
+    "infra": "Infraestructura y Despliegue",
+    "results": "Resultados e Impacto",
+    "tradeoffs": "Trade-offs",
+    "lessons": "Lecciones Aprendidas",
+    "future": "Mejoras Futuras"
+  },
+  "footer": {
+    "ctaEyebrow": "Trabajemos juntos",
+    "ctaTitle": "¿Tienes un proyecto en mente?",
+    "ctaBody": "Abierto a oportunidades, colaboraciones y conversaciones técnicas.",
+    "ctaButton": "Contactar",
+    "quote": "La IA acelera la implementación. El juicio de ingeniería asegura la calidad. Diseño, desarrollo y opero sistemas de software preparados para producción.",
+    "follow": "Sígueme",
+    "rights": "Todos los derechos reservados.",
+    "built": "Construido con Nuxt."
+  },
+  "seo": {
+    "home": "Jorge Román Palma — Software Engineer & Technical Lead",
+    "homeDesc": "Software Engineer, Technical Lead y profesor de ingeniería de software en Santiago, Chile. Diseño, desarrollo y opero sistemas de software en producción combinando ingeniería, arquitectura e IA aplicada.",
+    "work": "Trabajo — Jorge Román Palma",
+    "workDesc": "Casos de estudio de software en producción: SaaS de salud, identidad digital, generación 3D con IA, e-commerce y modernización empresarial.",
+    "about": "Sobre mí — Jorge Román Palma",
+    "aboutDesc": "Software Engineer, Technical Lead y profesor. Experiencia, habilidades, principios de ingeniería e IA aplicada.",
+    "contact": "Contacto — Jorge Román Palma",
+    "contactDesc": "Contacta a Jorge Román Palma para oportunidades, colaboraciones y conversaciones técnicas.",
+    "caseStudy": "{name} — Caso de estudio · Jorge Román Palma"
+  }
+}

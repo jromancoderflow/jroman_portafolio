@@ -1,0 +1,43 @@
+{
+  "name": "jroman_portafolio",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.17.0",
+    "@nuxt/icon": "^2.6.3",
+    "@nuxtjs/color-mode": "^4.1.0",
+    "@nuxtjs/i18n": "^10.6.0",
+    "@nuxtjs/robots": "^7.1.0",
+    "@nuxtjs/sitemap": "^9.2.0",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "better-sqlite3": "^13.2.0",
+    "lucide-vue-next": "^1.0.0",
+    "mermaid": "^12.3.0",
+    "nuxt": "^4.7.0",
+    "vue": "^3.5.45",
+    "vue-router": "^5.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^4.4.0",
+    "@types/node": "^26.6.6",
+    "@typescript-eslint/parser": "^8.74.0",
+    "@vue/test-utils": "^2.6.0",
+    "eslint": "^10.15.0",
+    "eslint-plugin-vue": "^10.12.1",
+    "playwright": "^1.65.1",
+    "prettier": "^3.10.1",
+    "vitest": "^5.1.1",
+    "vue-eslint-parser": "^10.4.2",
+    "vue-tsc": "^3.3.14"
+  }
+}

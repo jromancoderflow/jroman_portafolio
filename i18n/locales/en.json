@@ -1,0 +1,190 @@
+{
+  "nav": {
+    "home": "Home",
+    "work": "Work",
+    "engineering": "Engineering",
+    "ai": "AI Engineering",
+    "lab": "Lab",
+    "writing": "Writing",
+    "about": "About",
+    "contact": "Contact",
+    "hireMe": "Hire Me",
+    "menu": "Menu",
+    "skipToContent": "Skip to content",
+    "language": "Change language"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "toggle": "Toggle color theme"
+  },
+  "common": {
+    "viewCaseStudy": "View Case Study",
+    "visitSite": "Visit site",
+    "back": "Back",
+    "noContent": "Content coming soon.",
+    "draft": "Draft",
+    "research": "Research",
+    "inDevelopment": "In development",
+    "experimental": "Experimental",
+    "published": "Published",
+    "archived": "Archived"
+  },
+  "home": {
+    "hero": {
+      "badge": "Software Engineer & Technical Lead",
+      "greeting": "Hi, I'm",
+      "headline": "I build production software.",
+      "available": "Available for opportunities",
+      "exploreWork": "View My Work",
+      "downloadCv": "Download CV",
+      "contact": "Contact",
+      "basedIn": "Based in",
+      "stack": "Technologies I work with"
+    },
+    "metrics": {
+      "years": "Years Experience",
+      "python": "Years with Python",
+      "leadership": "Technical",
+      "leadershipLabel": "Leadership",
+      "educator": "Educator",
+      "educatorLabel": "Software Engineering"
+    },
+    "about": {
+      "eyebrow": "About me",
+      "title": "I design, build and operate systems that hold up in production.",
+      "body": "Software Engineer, Technical Lead and Educator based in Santiago, Chile. I combine software engineering, software architecture and applied AI to turn real business problems into reliable, scalable systems.",
+      "cta": "Learn more about me"
+    },
+    "skills": {
+      "eyebrow": "My skills",
+      "title": "Technologies I Master",
+      "subtitle": "Organized by engineering capability, with evidence level for each technology instead of arbitrary percentages."
+    },
+    "projects": {
+      "eyebrow": "Featured projects",
+      "title": "Some of My Recent Work",
+      "subtitle": "Production systems and commercial products, presented as engineering case studies.",
+      "cta": "View all case studies"
+    },
+    "principles": {
+      "eyebrow": "Engineering principles",
+      "title": "How I Approach Software"
+    },
+    "aiPreview": {
+      "title": "AI Engineering",
+      "subtitle": "AI as a tool, engineering as the craft.",
+      "body": "I integrate AI where it creates real value, with human review, testing and observability. AI accelerates implementation; engineering judgment ensures quality.",
+      "cta": "Learn more"
+    },
+    "experience": {
+      "eyebrow": "Experience",
+      "title": "Professional Experience",
+      "subtitle": "A short timeline."
+    },
+    "writing": {
+      "eyebrow": "Writing",
+      "title": "Latest Writing"
+    },
+    "contactCta": {
+      "eyebrow": "Let's work together",
+      "title": "Have a project in mind?",
+      "body": "Open to opportunities, collaborations and technical conversations.",
+      "cta": "Get in touch"
+    }
+  },
+  "work": {
+    "title": "Work",
+    "subtitle": "Case studies of production software."
+  },
+  "engineering": {
+    "title": "Engineering",
+    "subtitle": "Capabilities, not just technologies.",
+    "legend": {
+      "production": "Production experience",
+      "practical": "Practical knowledge",
+      "developing": "Developing"
+    }
+  },
+  "ai": {
+    "title": "AI Engineering",
+    "subtitle": "AI-augmented software engineering.",
+    "augmented": {
+      "title": "AI-Augmented Software Engineering",
+      "body": "A workflow where AI accelerates implementation while engineering judgment ensures quality."
+    },
+    "applied": {
+      "title": "Applied AI",
+      "body": "Real AI integrations inside software products."
+    },
+    "governance": {
+      "title": "AI Governance & Reliability",
+      "body": "Validation, safety, cost and observability for AI systems."
+    }
+  },
+  "lab": {
+    "title": "Engineering Lab",
+    "subtitle": "Experiments, tools and research."
+  },
+  "writing": {
+    "title": "Writing",
+    "subtitle": "Technical articles and notes.",
+    "empty": "No published articles yet. Drafts are in progress."
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Engineer, builder, educator.",
+    "teaching": {
+      "title": "Teaching",
+      "body": "Software engineering educator at Duoc UC, covering full-stack development, DevOps, cloud and system design."
+    },
+    "languages": "Languages: Spanish (native), English (advanced)"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's talk.",
+    "availability": "Availability",
+    "location": "Location",
+    "downloadCv": "Download CV",
+    "noEmail": "Email not configured yet.",
+    "noSocial": "Social links not configured yet."
+  },
+  "caseStudy": {
+    "overview": "Project Overview",
+    "problem": "Business Problem",
+    "role": "My Role",
+    "challenges": "Technical Challenges",
+    "architecture": "System Architecture",
+    "stack": "Technology Stack",
+    "decisions": "Architecture Decisions",
+    "highlights": "Implementation Highlights",
+    "security": "Security Considerations",
+    "infra": "Infrastructure & Deployment",
+    "results": "Results & Impact",
+    "tradeoffs": "Trade-offs",
+    "lessons": "Lessons Learned",
+    "future": "Future Improvements"
+  },
+  "footer": {
+    "ctaEyebrow": "Let's work together",
+    "ctaTitle": "Have a project in mind?",
+    "ctaBody": "Open to opportunities, collaborations and technical conversations.",
+    "ctaButton": "Get in touch",
+    "quote": "AI accelerates implementation. Engineering judgment ensures quality. I design, build and operate production-ready software systems.",
+    "follow": "Follow me",
+    "rights": "All rights reserved.",
+    "built": "Built with Nuxt."
+  },
+  "seo": {
+    "home": "Jorge Román Palma — Software Engineer & Technical Lead",
+    "homeDesc": "Software Engineer, Technical Lead and Educator based in Santiago, Chile. Designing, building and operating production-ready software systems combining engineering, architecture and applied AI.",
+    "work": "Work — Jorge Román Palma",
+    "workDesc": "Case studies of production software: healthcare SaaS, digital identity, AI-powered 3D generation, e-commerce and enterprise modernization.",
+    "about": "About — Jorge Román Palma",
+    "aboutDesc": "Software Engineer, Technical Lead and Educator. Experience, skills, engineering principles and applied AI.",
+    "contact": "Contact — Jorge Román Palma",
+    "contactDesc": "Get in touch with Jorge Román Palma for opportunities, collaborations and technical conversations.",
+    "caseStudy": "{name} — Case Study · Jorge Román Palma"
+  }
+}
