@@ -19,10 +19,20 @@
             :aria-label="p.name"
           >
             <div class="relative aspect-[16/9] overflow-hidden bg-surface-2">
-              <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-accent/20 via-surface to-background">
+              <img
+                v-if="p.thumbnail"
+                :src="p.thumbnail"
+                :alt="p.name"
+                class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+              />
+              <div
+                v-else
+                class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-accent/20 via-surface to-background"
+              >
                 <component :is="projectIcon(p)" class="h-12 w-12 text-accent/70 transition-transform duration-500 group-hover:scale-110" />
               </div>
-              <span class="absolute left-4 top-4 font-mono text-[11px] font-semibold text-text-secondary">
+              <span class="absolute left-4 top-4 rounded-md bg-black/50 px-2 py-0.5 font-mono text-[11px] font-semibold text-white/90 backdrop-blur">
                 {{ String(i + 1).padStart(2, '0') }}
               </span>
             </div>

@@ -35,6 +35,10 @@
         </a>
       </div>
 
+      <div v-if="project.thumbnail" class="mt-8 overflow-hidden rounded-2xl border border-border">
+        <img :src="project.thumbnail" :alt="project.name" class="h-auto w-full object-cover" loading="lazy" />
+      </div>
+
       <div class="mt-14 space-y-12">
         <article v-if="loc(project.problem)" class="prose-portfolio">
           <h2>{{ $t('caseStudy.problem') }}</h2>

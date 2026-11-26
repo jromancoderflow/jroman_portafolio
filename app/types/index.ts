@@ -49,6 +49,7 @@ export interface Project {
   slug: string
   name: string
   icon: ProjectIcon
+  thumbnail?: string
   category: Record<Locale, string>
   description: Record<Locale, string>
   role: Record<Locale, string>

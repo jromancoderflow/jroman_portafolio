@@ -4,6 +4,7 @@ export const projects: Project[] = [
   {
     slug: 'viten',
     icon: 'health',
+    thumbnail: '/projects/Viten.png',
     name: 'Viten',
     category: { en: 'Healthcare SaaS', es: 'SaaS de Salud' },
     description: {
@@ -106,6 +107,7 @@ export const projects: Project[] = [
   {
     slug: 'deuna',
     icon: 'identity',
+    thumbnail: '/projects/Deuna.png',
     name: 'Deuna',
     category: { en: 'Digital Identity & NFC Platform', es: 'Plataforma de Identidad Digital y NFC' },
     description: {
@@ -153,41 +155,6 @@ export const projects: Project[] = [
     security: {
       en: ['JWT authentication and unique public identifiers.'],
       es: ['Autenticación JWT e identificadores públicos únicos.'],
-    },
-  },
-  {
-    slug: 'clarity',
-    name: 'Clarity',
-    icon: 'commerce',
-    category: { en: 'Accounting SaaS', es: 'SaaS Contable' },
-    description: {
-      en: 'SaaS platform for digitizing and automating administrative processes in accounting offices: client, document, task and internal process management.',
-      es: 'Plataforma SaaS para digitalizar y automatizar procesos administrativos en oficinas contables: gestión de clientes, documentos, tareas y procesos internos.',
-    },
-    role: { en: 'Founder & Lead Software Engineer', es: 'Founder y Lead Software Engineer' },
-    tags: ['SaaS', 'Accounting', 'Backend'],
-    technologies: ['Django Ninja', 'PostgreSQL', 'Docker', 'React'],
-    caseStudy: true,
-    status: 'commercial',
-    highlights: {
-      en: [
-        'Full backend and REST API development for clients, documents, tasks and internal processes.',
-        'Scalable architecture based on decoupled services and automated deployments.',
-        'Workflows focused on reducing operational tasks and improving information traceability.',
-      ],
-      es: [
-        'Desarrollo completo del backend y APIs REST para clientes, documentos, tareas y procesos internos.',
-        'Arquitectura escalable basada en servicios desacoplados y despliegues automatizados.',
-        'Flujos de trabajo enfocados en reducir tareas operativas y mejorar la trazabilidad de la información.',
-      ],
-    },
-    problem: {
-      en: 'Digitize and automate administrative processes in accounting offices.',
-      es: 'Digitalizar y automatizar procesos administrativos en oficinas contables.',
-    },
-    challenges: {
-      en: ['Designing decoupled services.', 'Automating deployments.', 'Improving information traceability.'],
-      es: ['Diseñar servicios desacoplados.', 'Automatizar despliegues.', 'Mejorar la trazabilidad de la información.'],
     },
   },
   {
@@ -255,43 +222,9 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: 'bizy',
-    icon: 'commerce',
-    name: 'Bizy',
-    category: { en: 'Multi-store E-commerce Platform', es: 'Plataforma E-commerce Multi-tienda' },
-    description: {
-      en: 'Platform oriented to e-commerce and the administration of multiple stores.',
-      es: 'Plataforma orientada al comercio electrónico y la administración de múltiples tiendas.',
-    },
-    role: { en: 'Software Engineer', es: 'Software Engineer' },
-    tags: ['E-commerce', 'SaaS', 'Multi-tenant'],
-    technologies: ['SaaS Architecture', 'APIs', 'Reverse Proxies', 'Automation'],
-    caseStudy: true,
-    status: 'production',
-    highlights: {
-      en: [
-        'Multi-store SaaS architecture.',
-        'Domain and subdomain management.',
-        'Infrastructure automation and deployments.',
-      ],
-      es: [
-        'Arquitectura SaaS multi-tienda.',
-        'Gestión de dominios y subdominios.',
-        'Automatización de infraestructura y despliegues.',
-      ],
-    },
-    problem: {
-      en: 'Enable multiple stores to operate on a shared, scalable platform.',
-      es: 'Permitir que múltiples tiendas operen sobre una plataforma compartida y escalable.',
-    },
-    challenges: {
-      en: ['Tenant isolation and domain routing.', 'Scalable deployment automation.'],
-      es: ['Aislamiento de tenants y enrutamiento de dominios.', 'Automatización escalable de despliegues.'],
-    },
-  },
-  {
     slug: 'wisetrack',
     icon: 'enterprise',
+    thumbnail: '/projects/Wisetrack.png',
     name: 'Wisetrack',
     category: { en: 'Enterprise Software & System Modernization', es: 'Software Empresarial y Modernización' },
     description: {
