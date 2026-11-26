@@ -24,8 +24,8 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/coderflowcl/nuxt_app_front:${{ github.sha }}
-            ghcr.io/coderflowcl/nuxt_app_front:qa
+            ghcr.io/coderflowcl/jroman_portafolio_front:${{ github.sha }}
+            ghcr.io/coderflowcl/jroman_portafolio_front:qa
           build-args: |
             NUXT_PUBLIC_SITE_URL=${{ secrets.SITE_URL }}
 
@@ -44,9 +44,9 @@ jobs:
           script: |
             set -e
 
-            APP_DIR=coderflow_apps/nuxt_app_front
-            CONTAINER_NAME=nuxt_app_front
-            IMAGE=ghcr.io/coderflowcl/nuxt_app_front:qa
+            APP_DIR=coderflow_apps/jroman_portafolio_front
+            CONTAINER_NAME=jroman_portafolio_front
+            IMAGE=ghcr.io/coderflowcl/jroman_portafolio_front:qa
 
             mkdir -p $APP_DIR
             cd $APP_DIR
